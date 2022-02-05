@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Lustre</title>
 </head>
 <body id="gridAreas">
     <header id="gridHeader" class="flexHeader">
         <div class="flexHeaderImg">
-            <a href="../index.html"><img class="imgLogo" src="../imagenes/logo.jpg" alt="Logo taller chapa y pintura"> </a>
+            <a href="../index.html"><img class="animate__animated animate__fadeInDown imgLogo" src="../imagenes/logo.jpg" alt="Logo taller chapa y pintura"> </a>
         </div>
         <div class="flexHeaderDiv">
             <nav class="flexHeaderNav">
@@ -49,22 +51,22 @@
     <main id=gridMain class="fondoCeleste">
 
         <section>
-            <h3 class="flexServiciosH2">Lustre</h3>
-            <div class="flexMainLustre">
+            <h2 class="animate__animated animate__lightSpeedInLeft flexServiciosH2">Lustre</h2>
+            <div data-aos="fade-up" class="flexMainLustre">
                 <p>Lustrar y pulir un automóvil es fundamental para resaltar el diseño del vehículo y dar brillo a todas sus partes. Pero los materiales y métodos que utilicemos serán determinantes para lograr el acabado deseado, nosotros al contar con la mano de obra y materiales de primera calidad la terminación en su auto está asegurada.</p>
             </div>
-            <div class="flexMainLustre2">
+            <div data-aos="fade-up" class="flexMainLustre2">
                 <img src="../imagenes/lustre1.jpg" width="25%" alt="Encintando auto antes de lustrar">
                 <img src="../imagenes/lustre2.jpg" width="25%" alt="Persona lustrando auto">
                 <img src="../imagenes/lustre3.jpg" width="25%" alt="Sacando brillo al auto">
             </div>
         </section>
         <section class="flexMainChapa2">
-            <div class="flexMainChapa3">
+            <div data-aos="fade-right" class="flexMainChapa3">
                 <p class="textoMargin">Chapa y pintura</p>
-                <a href="./chapaypintura.html"><img src="../imagenes/pintando guardabarro.jpg" class="imgServicios" alt="Hombre pintando guardabarro"></a>
+                <a href="./chapaypintura.html"><img src="../imagenes/hombre en cabina.jpg" class="imgServicios" alt="Hombre pintando guardabarro"></a>
             </div>
-            <div class="flexMainChapa3">
+            <div data-aos="fade-left" class="flexMainChapa3">
                 <p class="textoMargin">Desabollado</p>
                 <a href="./desabollado.html"><img src="../imagenes/chupeta.jpg"class="imgServicios" alt="Hombre desabollando auto"></a>
             </div>
@@ -84,6 +86,9 @@
         </div>
     
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Desabollado</title>
 </head>
 <body id="gridAreas">
     <header id="gridHeader" class="flexHeader">
         <div class="flexHeaderImg">
-            <a href="../index.html"><img class="imgLogo" src="../imagenes/logo.jpg" alt="Logo taller chapa y pintura"> </a>
+            <a href="../index.html"><img class="animate__animated animate__fadeInDown imgLogo" src="../imagenes/logo.jpg" alt="Logo taller chapa y pintura"> </a>
         </div>
         <div class="flexHeaderDiv">
             <nav class="flexHeaderNav">
@@ -49,24 +51,24 @@
     <main id=gridMain class="fondoCeleste">
         
         <section>
-            <h3 class="flexServiciosH2">Desabollado</h3>
+            <h2 class="animate__animated animate__lightSpeedInLeft flexServiciosH2">Desabollado</h2>
             <div class="flexMainDesabollado">
                 <!--Proximamente un video irá aquí por ahora pongo img-->
                 <img class="imgSectionNosotros" src="../imagenes/sacabollo.jpg" alt="hombre desabollando auto">
-                <p class=" textoTamaño textoMargin alineacionTextoDerecha">
+                <p data-aos="fade-left" class=" textoTamaño textoMargin alineacionTextoDerecha">
                     La artesanía de desabollar un auto sin pintar consiste en trabajar con unas varillas especiales que se utilizan para arreglar el golpe o bollo, ejerciendo presión y empuje desde el interior de la carrocería con gran precisión y cuidado para evitar el daño en la chapa o en la pintura del vehículo. De esta manera se consigue la conservación de la pintura original.
                 </p>
             </div>
         </section>
 
         <section class="flexMainChapa2">
-            <div class="flexMainChapa3">
+            <div data-aos="fade-right" class="flexMainChapa3">
                 <p class="textoMargin">Chapa y Pintura</p>
-                <a href="../chapaypintura.html"><img src="../imagenes/hombre en cabina.jpg"class="imgServicios" alt="Hombre pintando auto"></a>
+                <a href="./chapaypintura.html"><img src="../imagenes/hombre en cabina.jpg"class="imgServicios" alt="Hombre pintando auto"></a>
             </div>
-            <div class="flexMainChapa3">
+            <div data-aos="fade-left" class="flexMainChapa3">
                 <p class="textoMargin">Lustre</p>
-                <a href="../lustre.html"><img src="../imagenes/hombre puliendo.jpg" class="imgServicios" alt="Hombre puliendo un auto"></a>
+                <a href="./lustre.html"><img src="../imagenes/hombre puliendo.jpg" class="imgServicios" alt="Hombre puliendo un auto"></a>
             </div>
         </section>
 
@@ -84,6 +86,9 @@
         </div>
     
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
