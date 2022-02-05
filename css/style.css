@@ -103,7 +103,7 @@ ul {
 }
 .flexHeaderDiv{
     display: flex;
-    justify-content:center;
+    justify-content: center;
     width: 100%;
 }
 .imgLogo{
@@ -111,9 +111,9 @@ ul {
 }
 .menu {
     background-color: rgb(17 115 240);
-    margin:5px;
+    margin: 1% 10%;
     border: double 3px rgb(0, 0, 0);
-    padding:3%;
+    padding: 1% 3%;
     color:rgb(255, 255, 255);
     text-decoration-line: none;
 }
@@ -304,11 +304,21 @@ ul {
     font-weight: bold;
     color:rgb(0 163 232)
 }
-.IconFooter{
+.iconFooter{
     width: 2rem;
     padding-top: 3px;
     padding-right: 3px;
     padding-left: 3px;
+}
+.iconFooter:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.placeholderPosition{
+    transform: translateX(4.8rem);
+}
+.placeholderPosition2{
+    transform: translateX(5.1rem);
 }
 
 
@@ -412,6 +422,12 @@ ul {
     .IconFooter{
         width: 25px;
     }
+    .placeholderPosition{
+        transform: translateX(2.3rem);
+    }
+    .placeholderPosition2{
+        transform: translateX(2.5rem);
+    }
 
 }
 /*------MEDIA: Smartphone------*/
@@ -424,9 +440,6 @@ ul {
     #gridAreas{
         grid-template-columns:101%;
         grid-template-rows: 20% auto 12%;
-        }
-    .imgLogo{
-            width: 82%;
         }
     li a {
         font-size: 80%;
@@ -522,5 +535,10 @@ ul {
     .IconFooter{
         width: 25px;
     }
+    .placeholderPosition{
+        transform: translateX(1.7rem);
+    }
+    .placeholderPosition2{
+        transform: translateX(1.7rem);
+    }
 }
-/* ANIMACIONES*/
