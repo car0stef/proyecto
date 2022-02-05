@@ -361,9 +361,6 @@ ul {
         background-color: rgb(233, 254, 255);
         height: 100%;
     }
-    .imgLogo{
-        width: 70%;
-    }
     .imgMargin{
         padding: 0 3%;
         width: 85vw;
@@ -458,12 +455,12 @@ ul {
         padding: 3%;
     }
     .flexArticleImgIndex{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         width: 90%;
     }
     .flexArticleTextoIndex{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         width: 100%;
     }
@@ -472,6 +469,9 @@ ul {
         margin: 3%;
     }
     /*main nosotros*/
+    .flexSectionNosotros2{
+        flex-direction: column;
+    }
     .imgSectionNosotros{
         padding: 3% 2%;
     }
