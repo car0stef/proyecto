@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Inicio</title>
 </head>
 <body id="gridAreas">
     <header id="gridHeader" class="flexHeader">
         <div class="flexHeaderImg">
-            <a href="./index.html"><img class="imgLogo" src="./imagenes/logo.jpg" alt="Logo taller chapa y pintura"> </a>
+            <a href="./index.html"><img class="animate__animated animate__fadeInDown imgLogo" src="./imagenes/logo.jpg" alt="Logo taller chapa y pintura"> </a>
         </div>
         <div class="flexHeaderDiv">
             <nav class="flexHeaderNav">
@@ -49,19 +51,19 @@
     <main id=gridMain class="fondoCeleste ">
         
             <section class="sectionMainIndex">
-                <img class="imgIndex1" src="./imagenes/instalaciones.jpg" alt="Instalaciones">                
-                <p class="textoMargin"> <span class="fuenteGrande"> ¡Bienvenidos! </span> Somos una empresa familiar dedicada al servicio de reparación de la chapa del auto, pintamos pulimos y reparamos sin pintar abolladuras de granizo y golpes en general. Contamos con más de 40 años de experiencia en el rubro automotriz, nuestro deseo es que el cliente se vaya contento, somos una empresa pequeña pero con mucho que ofrecer. Aquí queremos a los autos. </p>    
+                <img data-aos="zoom-in" class="imgIndex1" src="./imagenes/instalaciones.jpg" alt="Instalaciones">                
+                <p data-aos="fade-up" class="textoMargin"> <span class="fuenteGrande"> ¡Bienvenidos! </span> Somos una empresa familiar dedicada al servicio de reparación de la chapa del auto, pintamos pulimos y reparamos sin pintar abolladuras de granizo y golpes en general. Contamos con más de 40 años de experiencia en el rubro automotriz, nuestro deseo es que el cliente se vaya contento, somos una empresa pequeña pero con mucho que ofrecer. Aquí queremos a los autos. </p>    
             </section>
     
             <article class="flexArticleIndex">
                 <div class="flexArticleImgIndex">
-                    <img class="imgMarginLeft imgMainIndex" src="./imagenes/mano pintando.jpg"alt="Hombre pintando puerta de auto">
-                    <img class="imgMarginLeft imgMainIndex" src="./imagenes/hombre puliendo.jpg" alt=" Hombre puliendo un auto">
+                    <img data-aos="fade-right" class="imgMarginLeft imgMainIndex" src="./imagenes/mano pintando.jpg"alt="Hombre pintando puerta de auto">
+                    <img data-aos="fade-right" class="imgMarginLeft imgMainIndex" src="./imagenes/hombre puliendo.jpg" alt=" Hombre puliendo un auto">
                     
                 </div>
                 <div class="flexArticleTextoIndex">
-                    <p class="alineacionTextoDerecha textoMarginRight">  A través de los años logramos reunir a un equipo de personas y entre ellas se encuentran los pintores, personas que hábilmente con las manos logran dar uno de los últimos pasos para la restauración de tu auto. Todo va de la mano y aquí tenemos un ambiente amigable en donde el equipo colabora entre sí. Contamos con laboratorio de confianza para lograr el color deseado y que no te lleves sorpresas más adelante. </p>
-                    <p class="alineacionTextoDerecha textoMarginRight">  Contamos con personal capacitado para la restauración en el brillo en la pintura. Los conocidos raspones y manchas superficiales logran ser borrados por el implemento de materiales de alta calidad y personas con más de 10 años de experiencia. Dale una nueva oportunidad a tu auto con el lustrado y tratamiento 3M. </p>
+                    <p data-aos="fade-left" class="alineacionTextoDerecha textoMarginRight">  A través de los años logramos reunir a un equipo de personas y entre ellas se encuentran los pintores, personas que hábilmente con las manos logran dar uno de los últimos pasos para la restauración de tu auto. Todo va de la mano y aquí tenemos un ambiente amigable en donde el equipo colabora entre sí. Contamos con laboratorio de confianza para lograr el color deseado y que no te lleves sorpresas más adelante. </p>
+                    <p data-aos="fade-left" class="alineacionTextoDerecha textoMarginRight">  Contamos con personal capacitado para la restauración en el brillo en la pintura. Los conocidos raspones y manchas superficiales logran ser borrados por el implemento de materiales de alta calidad y personas con más de 10 años de experiencia. Dale una nueva oportunidad a tu auto con el lustrado y tratamiento 3M. </p>
                 </div>
                 
             </article>
@@ -81,6 +83,9 @@
         </div>
     
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
