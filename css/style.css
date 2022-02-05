@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "nunitosans", sans-serif;
+    src: url("./fuente/nunitosans-regular.ttf");
+}
+body {
+    font-family:"nunitosans", sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+ul {
+    list-style-type: none;
+}
+
+/*caracteristicas generales*/
+
+.alineacionTextoDerecha{
+    text-align: right;
+}
+.imgMargin{
+    padding: 0 3% 1% 3%;
+    width: 95vw;
+}
+.imgMarginLeft{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.textoMargin{
+    margin: 1% 5%;
+    text-align: left;
+}
+.textoMarginRight{
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.imgMainIndex{
+    width: 80%;
+    height: auto;
+}
+
+.iframeSize{
+    width: 120%;
+    height: 100%;
+}
+.imgServicios{
+    width: 95%;
+    height: 95%;
+}
+.imgSectionNosotros{ /*Sirve para img y texto*/
+    width: 50%;
+    margin: 0 2%;
+}
+.imgChapa1{
+    width: 80vw;
+    height: 48vh;
+    margin: 0 5%;
+}
+.textoTamaño{
+    width: 50%;
+    height: 50%;
+    padding-left: 5%;
+}
+.fuenteGrande {
+    font-size: 130%;
+}
+
+/*Header general*/
+
+.flexHeader{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content:center;
+    width:100%;
+    position: absolute;
+}
+.flexHeaderImg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:rgb(17 115 240);
+    width: 100%;
+}
+.flexHeaderNav{
+    display: flex;
+    justify-content:center;
+    width: 80%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.flexHeaderDiv{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+.imgLogo{
+    width:80vw;
+}
+.menu {
+    background-color: rgb(17 115 240);
+    margin:2px;
+    border: double 4px rgb(0, 0, 0);
+    padding:4px;
+    color:rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+.imgIndex1{
+    padding: 0 3% 1% 3%;
+    width: 95vw;
+}
+
+/* Main general */
+.fondoCeleste {
+    background-color: rgb(233, 254, 255);
+    padding: 10px 0px;
+    height: 100%;
+}
+
+/* 1) main index.html*/
+
+.sectionMainIndex{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+.flexArticleIndex{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 3% 0;
+}
+.flexArticleImgIndex{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+.flexArticleTextoIndex{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+/*2) main nosotros.html*/
+
+.flexSectionNosotros{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 5%;
+}
+.flexSectionNosotros2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    margin:2% 3%;
+}
+
+/*3) main servicios.html*/
+
+.flexServiciosH2{ /*Uso en títulos H2 H3 en general*/
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+.flexMainServicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.flexMainServicios2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 0 3% 3% 3%;
+}
+
+/*3.1) main chapaypintura.html*/
+
+.flexMainChapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:3% 3% 2% 3%;
+}
+.flexMainChapa2{ /* flexMainChapa2 y 3 lo usé también para Desabollado y Lustre*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flexMainChapa3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3% 3% 3%;
+}
+
+/*3.2) main desabollado-html*/
+
+.flexMainDesabollado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5% 5% 5%;
+}
+
+/*3.3) main lustre.html*/
+
+.flexMainLustre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1% 5%;
+}
+.flexMainLustre2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1% 5% 4% 5%;
+}
+
+/*4) main trabajos.html*/
+.flexMainTrabajos{
+    display: flex;
+    justify-content:center;
+    padding: 1%;
+}
+
+/*5) main contacto.html*/
+
+.flexMainContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+.flexMainContacto2{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.flexMainContacto3{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/* Footer general*/
+
+.flexFooter{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    background-color: rgb(0 0 0);
+}
+.flexDivFooter1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexDivFooter2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-self: center;
+}
+.bordeImgFooter {
+    border: double 3px rgb(255, 255, 255);
+    margin: 3%;
+}
+.fuenteFooter {
+    font-weight: bold;
+    color:rgb(0 163 232)
+}
+.IconFooter{ /*REVISAR TAMAÑOOOO*/
+    width: 30px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 1px;
+}
+
+
+/*Grids*/
+
+#gridHeader{
+    grid-area: header;
+}
+#gridMain{
+    grid-area: main;
+}
+#gridFooter{
+    grid-area: footer;
+}
+#gridAreas{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 45% auto 1fr;
+}
+
+/*---------MEDIA: Tablet--------*/
+@media (min-width: 481px) and (max-width: 1023px){
+
+    li a {
+        font-size: 75%;
+    }
+    body{
+        width: 98.8%;
+    }
+    #gridAreas{
+    grid-template-columns: 101.2%;
+    grid-template-rows: 33% auto 10%;
+    }
+    .fondoCeleste {
+        background-color: rgb(233, 254, 255);
+        height: 100%;
+    }
+    .imgLogo{
+        width: 70%;
+    }
+    .imgMargin{
+        padding: 0 3%;
+        width: 85vw;
+    }
+    .flexArticleIndex{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding: 3%;
+    }
+    .flexArticleImgIndex{
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+    }
+    .flexArticleTextoIndex{
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .textoMarginRight{
+        text-align: center;
+        margin: 3%;
+    }
+
+    /*main nosotros*/
+    .imgSectionNosotros{
+        width: 45%;
+        padding: 4% 2%;
+    }
+    /*main chapaypintura*/
+    .imgChapa1{
+        width: 80%;
+        height: 40%;
+    }
+    .flexMainChapa2{ /* flexMainChapa2 y 3 lo usé también para Desabollado y Lustre*/
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /*main contacto*/
+    .flexMainContacto{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .textoMargin{
+        text-align: center;
+    }
+
+    /*footer*/
+    .flexFooter{
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 75%;
+    }
+    .IconFooter{
+        width: 25px;
+    }
+
+}
+/*------MEDIA: Smartphone------*/
+
+@media (max-width: 480px){
+    body{
+        font-size: 68%;
+        width: 98.5%;
+    }        
+    #gridAreas{
+        grid-template-columns:101%;
+        grid-template-rows: 20% auto 12%;
+        }
+    .imgLogo{
+            width: 82%;
+        }
+    li a {
+        font-size: 80%;
+    }        
+    .fondoMenu {
+        margin:4%;
+        border: solid 1px rgb(0, 0, 0);
+        padding: 1%;
+    }
+    
+    .flexArticleIndex{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding: 3%;
+    }
+    .flexArticleImgIndex{
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+    }
+    .flexArticleTextoIndex{
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .textoMarginRight{
+        text-align: center;
+        margin: 3%;
+    }
+    /*main nosotros*/
+    .imgSectionNosotros{
+        padding: 3% 2%;
+    }
+    .textoMargin{
+        text-align: center;
+    }
+
+    /*main servicios*/
+    .imgServicios{
+        width: 320px;
+        height: 210px;
+    }
+    .flexMainServicios{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*main chapaypintura*/
+    .imgChapa1{
+        width: 80%;
+        height: 40%;
+    }
+    .flexMainChapa2{ /* flexMainChapa2 y 3 lo usé también para Desabollado y Lustre*/
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*main desabollado*/
+    .flexMainDesabollado{
+        flex-direction: column;
+        justify-content:center;
+        margin: 0;
+    }
+    .imgSectionNosotros{
+        width: 90%;
+        margin: 0 2%;
+    }
+    .textoMargin{
+        text-align: center;
+    }
+    .textoTamaño{
+        width: 90%;
+        height: 50%;
+        padding-left:1%;
+    }
+    
+    /*main contacto*/
+    .flexMainContacto{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*footer*/
+    .flexFooter{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+    .IconFooter{
+        width: 25px;
+    }
+
+}
